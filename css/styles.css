@@ -1,0 +1,324 @@
+html, body, header, main, div, p, img, a{
+	margin: 0 auto ;
+	max-width: 1920px;
+
+	
+}
+header {
+	height: 1080px;
+	width: 1920px;
+	background: linear-gradient(to top, #64c9c4,#f9e9a7), no-repeat;
+	position: inherit;
+}
+main {
+	height: 915px;
+	width: 1920px;
+	position: inherit;
+}
+footer {
+	position: absolute;
+	background-color: #273d50;
+	text-align: center;
+	width: 1920px;
+	height: 200px;
+	color: white;
+	font-size: 72px;
+	font-family: "Mullerbold";
+	text-transform: uppercase;
+	line-height: 210px;
+}
+
+.wrapper{
+	max-width: 1920px;
+	margin: 0 auto; /*шапка будет по центру с отступом 0 от верхней точки*/
+	overflow: hidden;
+	height: inherit;
+}
+.logo {
+	position: relative;
+	left: 170px;
+}
+.logo #logo {
+	position: relative;
+	right: 190px;
+	bottom: 20px;
+}
+.picture img{
+	position: relative;
+	float: right;
+}
+.picture #magnet{
+	top: 310px;
+}
+.obj img{
+	position: absolute;
+	top: 0px;
+}
+/*ari mullerbold
+cannot resist - mullerbold,mullerregular*/
+.text {
+	width: 930px;
+	position: relative;
+	left:170px;
+	top:250px;
+}
+.text #ari {
+	font-size: 32px;
+	color: #44a09b;
+}
+.text #resist{
+	font-size: 62px;
+	max-width: 1000px;
+	margin: 0;
+	margin-top: 30px;
+}
+p {
+	font-family: "Mullerbold";
+}
+h3 {
+	font-family: "MullerRegular";
+}
+.date {
+	position: relative;
+	top:300px;
+	left:170px;
+	height: 300px;
+}
+.date img{
+	position: relative;
+	right:170px;
+
+}
+.date a{
+	position: absolute;
+	color: white;
+	text-decoration: none;
+	border-width: 500px;
+	border-height: 70px;
+	border-color: #ff8141
+	width: 300px;
+	height: 150px;
+	cursor: pointer;
+	
+}
+#data{
+	position: relative;
+	color:#ff8141;
+	font-size:28px;
+	font-family:"Mullerbold";
+	bottom:280px;
+	width:600px;
+}
+.date a p{
+	position: relative;
+	right:170px;
+	top:-130px;
+	font-size:34px;
+	font-family:"Mullerbold";
+	background-color:#ff8141;
+	width:500px;
+	height:70px;
+	border: 2px solid #ff8141;;
+	border-color: #ff8141;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 70px;
+	border-radius: 35px 35px 35px 35px;
+	text-transform: uppercase;
+}
+.blind {
+	position: relative;
+	max-width: 150px;
+	max-height: 
+	left: 60px;
+	top:280px;
+	width: inherit;
+	color:white;
+	cursor: pointer;
+	transition: opacity 0.5s, transform 0.5s;
+}
+.blind:hover{
+	transform: translate( 0, 10px);
+	opacity: 0.7;
+}
+
+.bl-pos {
+	position: relative;
+	width: 150px;
+	top:-30px;
+}
+.blind h4{
+	margin-left: 10px;
+	font-size: 16px;
+	font-family: "VisbyCF-Heavy";
+	text-transform: uppercase;
+}
+.bl-tri {
+	width: 0;
+  	height: 0;
+  	margin-left: 40px;
+  	margin-top: -15px;
+  	/*border: 3px solid white;
+  	border-width: 33px 0 33px 45px;
+  	border-color: transparent transparent transparent #ffffff;
+  	transform: rotate(90deg);*/
+  	border-left: 33px solid transparent;
+    border-right: 33px solid transparent;
+    border-top: 45px solid white;
+}
+.bl-sec {
+	width: 0;
+  	height: 0;
+  	margin-left: -20px;
+  	margin-top: -38px;
+  	/*border: 3px solid white;
+  	border-width: 33px 0 33px 45px;
+  	border-color: transparent transparent transparent #ffffff;
+  	transform: rotate(90deg);*/
+  	border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 28px solid #69cac3;
+}
+.imgbck img{
+	position: absolute;
+	max-width: 100%;
+	}
+.frimage {
+	position: absolute;
+	max-width: inherit;
+	max-height: inherit;
+	top:1390px;
+}
+.play {
+	position: absolute;
+}
+.triangle {
+	cursor: pointer;
+	height: 181px;
+  	width: 181px;
+  	padding: 32px;
+  	border-radius: 50%;
+  	border: 1px solid #fff;
+  	background: rgba(0, 0, 0, 0.5);
+  	position: relative;
+  	left: 420px; 
+  	right: 0;
+  	top: -920px;
+  	bottom: 0;
+  	margin: 0 auto;
+  	transition: opacity 0.5s;
+}
+.triangle:hover {
+	opacity: 0.8;
+}
+.triangle:active {
+	opacity: 0;
+}
+.video-play{
+	width: 0;
+  	height: 0;
+  	margin-left: 60px;
+  	margin-top: 36px;
+  	border-style: solid;
+  	border-width: 54px 0 54px 88px;
+  	border-color: transparent transparent transparent #ffffff;
+}
+
+#zuzu {
+	position:relative;
+	top: -310px;
+}
+
+.list{
+	position: relative;
+	float: right;
+	bottom: 541px;
+	right:20px;
+}
+.list ul{
+	list-style-image: url(../img/st.png);
+}
+.list ol{
+	list-style-image: url(../img/heart.png);
+}
+.list h1{
+	font-size: 42px;
+	font-family: "MullerRegular";
+	text-transform: uppercase;
+	color:#3a4a62;
+}
+.list li{
+	
+	margin-right: 100px;
+	width: 600px;
+	font-size: 22px;
+	line-height: 33px;
+	font-family: "VisbyCF-Light";
+}
+.list a{
+	margin: 0;
+	text-decoration: none;
+}
+.list p{
+	position: relative;
+	top:50px;
+	right: -50px;
+	color: white;
+	font-size:34px;
+	font-family:"Mullerbold";
+	background-color:#ff8141;
+	width:500px;
+	height:70px;
+	border: 2px solid #ff8141;;
+	border-color: #ff8141;
+	margin: 0;
+	text-align: center;
+	line-height: 70px;
+	border-radius: 35px 35px 35px 35px;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+@font-face {
+/* название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) */
+font-family: "Mullerbold"; 
+/* адрес шрифта и тип */
+src: url("../fonts/10268.otf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+
+} 
+@font-face {
+/* название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) */
+font-family: "MullerRegular"; 
+/* адрес шрифта и тип */
+src: url("../fonts/MullerRegular.otf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+
+}
+
+@font-face {
+/* название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) */
+font-family: "VisbyCf-Light"; 
+/* адрес шрифта и тип */
+src: url("../fonts/VisbyCF-Light.otf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+
+}
+@font-face {
+/* название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) */
+font-family: "VisbyCF-Heavy"; 
+/* адрес шрифта и тип */
+src: url("../fonts/VisbyCF-Heavy.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+
+}
